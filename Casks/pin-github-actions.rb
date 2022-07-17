@@ -1,7 +1,7 @@
 cask "pin-github-actions" do
     arch = Hardware::CPU.intel? ? "x64" : "arm64"
   
-    version "0.1.0"
+    version "0.2.0"
   
     sha256 :no_check
   
