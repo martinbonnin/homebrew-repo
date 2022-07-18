@@ -1,10 +1,10 @@
 class PinGitHubActions < Formula
+    version "0.3.0"
+
     url "https://github.com/martinbonnin/pin-github-actions/releases/download/v#{version}/pin-github-actions.zip"
     name "pin-github-actions"
     desc "Pin your GitHub actions to their commit sha"
     homepage "https://github.com/martinbonnin/pin-github-actions"
-
-    version "0.3.0"
 
     sha256 :no_check
   
