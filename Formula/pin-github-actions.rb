@@ -11,7 +11,6 @@ class PinGitHubActions < Formula
     depends_on "openjdk"
   
     def install
-      rm_f Dir["bin/*.bat"]
       libexec.install %w[bin lib]
       (bin/"pin-github-actions").write_env_script libexec/"bin/pin-github-actions",
         :JAVA_HOME => "${JAVA_HOME:-#{Formula["openjdk"].opt_prefix}}"
