@@ -1,5 +1,5 @@
 class PinGitHubActions < Formula
-    url "https://github.com/martinbonnin/pin-github-actions/releases/download/v#{version}/pin-github-actions-#{arch}.zip"
+    url "https://github.com/martinbonnin/pin-github-actions/releases/download/v#{version}/pin-github-actions.zip"
     name "pin-github-actions"
     desc "Pin your GitHub actions to their commit sha"
     homepage "https://github.com/martinbonnin/pin-github-actions"
