@@ -1,11 +1,11 @@
 class PinGithubActions < Formula
-    version "0.3.0"
+    version "0.3.1"
 
     url "https://github.com/martinbonnin/pin-github-actions/releases/download/v#{version}/pin-github-actions.zip"
     desc "Pin your GitHub actions to their commit sha"
     homepage "https://github.com/martinbonnin/pin-github-actions"
 
-    sha256 "7ef83ef172c1c3c87c0558c68ce367325e5e3a253dcb42c79adff5192ccc4113"
+    sha256 "6bcaad5387eab22bcd6d7bf06c2d956bace0384bb3399b195f96de79b0df16d8"
   
     depends_on "openjdk"
   
